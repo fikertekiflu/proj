@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color:aquamarine;
+}
+.guess{
+    position: absolute;
+    width: 20%;
+    min-width: 580px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
