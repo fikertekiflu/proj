@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding :10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
+}
+.guess{
+    padding:10px;
+    margin-left: 10px;
+    border:  2px solid linear-gradient( 358.4deg,  rgba(249,151,119,1) -2.1%, rgba(98,58,162,1) 90% ) ;
+    border-radius: 10px;
+    
+}
+.guess:hover{
+    cursor: pointer;
+    box-shadow:  0 0 10px  rgba(128, 128, 128, 5);
+    
+}
+.guess h1{
+    padding-left: 100px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-shadow: burlywood; 
+    color: rgba(0,0,0, 0.6);
+}
+label{
+    
+    font-size:25px;
+    margin-bottom: 20px;
+    color: rgba(0,0,0, 0.5);
+}
+.guessField{
+    width: 50%;
+    padding: 5px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    outline: none;
+    appearance: none;
+    background-color:rgb(173, 166, 179);
+}
+.guessField:hover{
+    box-shadow:  0 0 10px  rgba(128, 128, 128, 5);
+}
+.guessSubmit{
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    outline: none;
+    appearance: none;
+    color: rgba(0,0,0,0.7);
+    background-color:rgb(173, 166, 179);
+}
+.guessSubmit:hover{
+    box-shadow:0 0 10px  rgba(128, 128, 128, 5);
+}
+.congradulation{
+    font-size: 30px;
+    color: rgb(64, 196, 93);
+    
+    
+}
