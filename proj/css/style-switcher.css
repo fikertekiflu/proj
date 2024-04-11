@@ -1,0 +1,63 @@
+.style-switcher {
+    position: fixed;
+    right: 0;
+    top: 60px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid var(--bg-black-50);
+    background: var(--bg-black-100);
+    z-index: 101;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.day-night .s-icon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background: var(--bg-black-100);
+    color: var(--text-black-900); /* Corrected typo here */
+    right: 100%; 
+    transform: translateY(-50%); 
+    cursor: pointer;
+    border: 1px solid var(--bg-black-50);
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+
+/* .style-switcher {
+    position: fixed;
+    right: 0;
+    top: 60px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid var(--bg-black-50);
+    background: var(--bg-black-100);
+    z-index: 101;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.day-night .s-icon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size:20px;
+    background: var(--bg-black-100);
+    color: var(var--text-black-900);
+    right:100%; 
+    transform: translateY(-50%); 
+    cursor: pointer;
+    border: 1px solid var(--bg -black-50);
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+} */
